@@ -163,5 +163,4 @@ I'll verify by running my 5 test questions and checking the returned chunks are 
 
 **Milestone 5 — Generation and interface:**
 I'll ask Groq to write a grounded, cited prompt template plus a simple interface,
-using the Groq API as the LLM; I'll verify with my Evaluation Plan, checking answers
-are cited and match expected results.
+I'll ask Claude (as my coding assistant) to write a grounded, cited prompt template plus a simple interface, using Groq (llama-3.3-70b-versatile, free tier) as the LLM that generates answers; I'll verify with my Evaluation Plan, checking answers are cited and match expected results.
