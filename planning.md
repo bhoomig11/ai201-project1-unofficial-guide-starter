@@ -91,11 +91,11 @@ professor, which adds noise without improving answer quality.
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What do students say about the workload in CS 3500 (Object-Oriented Design)? | Reviews describe OOD as heavy/demanding with a significant project load; students advise starting assignments early. Should cite RateMyCourses or RMP reviews mentioning workload, not just give a generic answer | 
+| 2 | Which CS professor is mentioned as giving strong or useful exam reviews? | Vidoje (Vido) Mihajlovic — a CS 3500 review specifically praises his exam reviews and recommends taking him if possible. Should cite the RateMyCourses CS 3500 review |
+| 3 | Do students recommend Northeastern's CS program for co-op and job outcomes? | Yes — multiple Collegedunia/Grad Café reviews highlight the co-op program as a key strength, with students reporting 2–3 job offers and strong industry-oriented curriculum. Should cite at least one grad-student review. |
+| 4 | How difficult is it to get good grades in NEU's CS master's courses according to students?  |  Mixed: some students say scoring well is "not at all difficult" with effort, others describe courses as demanding and project-heavy requiring significant time. A correct answer should surface this disagreement rather than pick one side. |
+| 5 | What is Professor Karl Lieberherr's reputation among CS students? | Lower-rated — RMP shows ~2.4 quality with only ~27% "would take again" and high difficulty (~4/5). A correct answer should reflect the negative/mixed sentiment and cite the RMP rating. |
 
 ---
 
@@ -105,9 +105,14 @@ professor, which adds noise without improving answer quality.
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1.  **Conflicting reviews retrieved together:** Student opinions on the same professor or
+   course often disagree (one calls a course fair, another brutal). The system may average
+   them into a vague answer or pick one side, misrepresenting the real spread of opinion.
 
-2.
+
+2. **Implicit entity references break retrieval:** Reviews say "OOD" or "Fundies" without
+   stating the course code, so a query using the official name ("CS 3500") may miss
+   relevant chunks unless we provide exact context before embedding.
 
 ---
 
@@ -118,6 +123,18 @@ professor, which adds noise without improving answer quality.
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+```mermaid
+flowchart TD
+    A["Document Ingestionrequests + BeautifulSoupScrape RMP, RateMyCourses, r/NEU,Grad Café, Collegedunia → raw text"]
+    B["ChunkingLangChain RecursiveCharacterTextSplitter200–300 tokens, 50-token overlap+ inject course/professor metadata"]
+    C["Embedding + Vector Storeall-MiniLM-L6-v2 (sentence-transformers)ChromaDBEmbed chunks → store vectors + metadata"]
+    D["RetrievalChromaDB similarity searchEmbed query → return top-k = 5 chunks"]
+    E["GenerationLLM (Claude) stuff retrieved chunks into prompt →grounded, cited answer"]
+
+    Q(["User question"]) --> D
+    A --> B --> C --> D --> E --> ANS(["Cited answer"])
+```
 
 ---
 
@@ -134,7 +151,16 @@ professor, which adds noise without improving answer quality.
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+I'll give Claude my source list and Chunking Strategy section and ask it to write the scrapers 
+and a `chunk_text()` function with my 300-token/50-overlap spec; I'll verify by checking chunk 
+sizes and metadata on a sample.
 
 **Milestone 4 — Embedding and retrieval:**
+I'll give Claude my Retrieval Approach section and ask it to embed chunks with 
+all-MiniLM-L6-v2 into ChromaDB and write a `retrieve(query, k=5)` function; 
+I'll verify by running my 5 test questions and checking the returned chunks are relevant.
 
 **Milestone 5 — Generation and interface:**
+I'll ask Claude to write a grounded, cited prompt template plus a simple interface, 
+using the Claude API as the LLM; I'll verify with my Evaluation Plan, checking answers 
+are cited and match expected results.
