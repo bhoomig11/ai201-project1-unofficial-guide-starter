@@ -126,11 +126,12 @@ professor, which adds noise without improving answer quality.
 
 ```mermaid
 flowchart TD
-    A["Document Ingestionrequests + BeautifulSoupScrape RMP, RateMyCourses, r/NEU,Grad Café, Collegedunia → raw text"]
+    A["Document Ingestion(Python file reading) .txt files from documents/ folder(one file per source) 
+    → raw text"]
     B["ChunkingLangChain RecursiveCharacterTextSplitter200–300 tokens, 50-token overlap+ inject course/professor metadata"]
     C["Embedding + Vector Storeall-MiniLM-L6-v2 (sentence-transformers)ChromaDBEmbed chunks → store vectors + metadata"]
     D["RetrievalChromaDB similarity searchEmbed query → return top-k = 5 chunks"]
-    E["GenerationLLM (Claude) stuff retrieved chunks into prompt →grounded, cited answer"]
+    E["GenerationLLM (Groq) stuff retrieved chunks into prompt →grounded, cited answer"]
 
     Q(["User question"]) --> D
     A --> B --> C --> D --> E --> ANS(["Cited answer"])
@@ -151,16 +152,16 @@ flowchart TD
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-I'll give Claude my source list and Chunking Strategy section and ask it to write the scrapers 
-and a `chunk_text()` function with my 300-token/50-overlap spec; I'll verify by checking chunk 
-sizes and metadata on a sample.
+I'll give Groq my source list and Chunking Strategy section and ask it to write a loader
+that reads the .txt files from my documents/ folder and a chunk_text() function with
+my 300-token/50-overlap spec; I'll verify by checking chunk sizes and metadata on a sample.
 
 **Milestone 4 — Embedding and retrieval:**
-I'll give Claude my Retrieval Approach section and ask it to embed chunks with 
-all-MiniLM-L6-v2 into ChromaDB and write a `retrieve(query, k=5)` function; 
+I'll give Groq my Retrieval Approach section and ask it to embed chunks with
+all-MiniLM-L6-v2 into ChromaDB and write a retrieve(query, k=5) function;
 I'll verify by running my 5 test questions and checking the returned chunks are relevant.
 
 **Milestone 5 — Generation and interface:**
-I'll ask Claude to write a grounded, cited prompt template plus a simple interface, 
-using the Claude API as the LLM; I'll verify with my Evaluation Plan, checking answers 
+I'll ask Groq to write a grounded, cited prompt template plus a simple interface,
+using the Groq API as the LLM; I'll verify with my Evaluation Plan, checking answers
 are cited and match expected results.
