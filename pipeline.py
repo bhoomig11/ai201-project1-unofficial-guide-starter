@@ -255,9 +255,7 @@ def retrieve(query: str, collection: chromadb.Collection, top_k: int = TOP_K) ->
     return retrieved
 
 
-# ---------------------------------------------------------------------------
-# Quick sanity check — run directly to verify chunking on your documents
-# ---------------------------------------------------------------------------
+# testing - 5 eval queries and prints the top-5 chunks with similarity scores
 if __name__ == "__main__":
     # --- Stages 1 & 2: ingest + chunk ---
     docs   = load_documents()
