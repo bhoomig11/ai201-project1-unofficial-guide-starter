@@ -162,5 +162,12 @@ all-MiniLM-L6-v2 into ChromaDB and write a retrieve(query, k=5) function;
 I'll verify by running my 5 test questions and checking the returned chunks are relevant.
 
 **Milestone 5 — Generation and interface:**
+Task: Connect retrieval to an LLM to generate grounded answers, then build a usable interface. The key engineering challenge here is grounding:  The LLM must answer from the retrieved context only — not from its general training knowledge.
+The retrieved chunks are passed as context and explicitly instructs the model to answer only 
+from that context.
+The Response format should include the answer and source as one of the attributes. The Response should name which document(s) the answer came from — either by instructing the model to cite sources in its response, or by appending retrieved source names programmatically after generation.
+
+
 I'll ask Groq to write a grounded, cited prompt template plus a simple interface,
-I'll ask Claude (as my coding assistant) to write a grounded, cited prompt template plus a simple interface, using Groq (llama-3.3-70b-versatile, free tier) as the LLM that generates answers; I'll verify with my Evaluation Plan, checking answers are cited and match expected results.
+I'll ask Claude (as my coding assistant) to write a grounded, cited prompt template plus a simple interface, using Groq (llama-3.3-70b-versatile, free tier) as the LLM that generates answers; I'll verify with my Evaluation Plan, checking answers are cited and match expected results. The output format
+should be Answer + Source list and I will use Gradio skeleton structure. esponse should name which document(s) the answer came from — either by instructing the model to cite sources in its response, or by appending retrieved source names programmatically after generation.
