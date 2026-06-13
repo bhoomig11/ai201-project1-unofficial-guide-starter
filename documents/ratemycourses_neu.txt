@@ -1,0 +1,75 @@
+Source: RateMyCourses — Northeastern University
+URL: https://www.ratemycourses.io/neu
+
+NORTHEASTERN UNIVERSITY — COURSE RATINGS
+(Student-submitted ratings on a 1–5 scale for Overall, Easiness, Interest, and Usefulness)
+
+--- COURSE RATINGS TABLE ---
+
+Course: CS 3500 — Object-Oriented Design
+Overall: 4.3 / 5
+Easiness: 2.6 / 5
+Interest: 4.1 / 5
+Usefulness: 4.9 / 5
+Number of Reviews: 7
+Notes: High usefulness score indicates students find this course very valuable for their careers despite its difficulty (low easiness). One of the most-reviewed CS courses on this platform.
+
+Course: DS 2000 — Programming with Data
+Overall: 5.0 / 5
+Easiness: 5.0 / 5
+Interest: 4.5 / 5
+Usefulness: 5.0 / 5
+Number of Reviews: 2
+
+Course: MATH 3081 — Probability and Statistics
+Overall: 4.5 / 5
+Easiness: 5.0 / 5
+Interest: 4.0 / 5
+Usefulness: 4.5 / 5
+Number of Reviews: 2
+
+Course: INFO 7370 — Designing Advanced Data Architectures for BI
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: BUSN 6365 — Business Analytics
+Overall: 1.0 / 5
+Easiness: 5.0 / 5
+Usefulness: 1.0 / 5
+Number of Reviews: 1
+Notes: Despite being rated easy, students found it not useful at all.
+
+Course: GE 1501 — Cornerstone of Engineering 1
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: PJM 1100 — Project Management Fundamentals
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: MKTG 3301 — Marketing Management
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: PJM 2000 — Project Monitoring and Control
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: ME 4550 — Mechanical Engineering Design
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: PSYC 1250 — Drugs and Behavior
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: POLS 3302 — Judicial Process and Behavior
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+Course: CHEM 2315 — Organic Chemistry 1 for Chemistry Majors
+Overall: 5.0 / 5
+Number of Reviews: 1
+
+--- SUMMARY OBSERVATIONS ---
+CS 3500 (Object-Oriented Design) is the most reviewed CS course on this platform. Students rate it as highly useful (4.9/5) and interesting (4.1/5) but difficult (easiness only 2.6/5). This aligns with its reputation as a demanding but career-relevant course.

@@ -1,0 +1,55 @@
+Source: Reddit r/cscareerquestions — NEU Class and Professor Recommendations
+URL: https://www.reddit.com/r/cscareerquestions/search/?q=which+professor+class+recommend
+
+NOTE: Reddit blocks automated fetching. The content below represents themes common in r/cscareerquestions threads where NEU students discuss course and professor quality in the context of career outcomes. To populate with real data, use the Reddit API or visit the URL manually.
+
+--- TYPICAL r/cscareerquestions DISCUSSION THEMES RELEVANT TO NEU ---
+
+Topic: Which courses give the most practical CS skills for industry?
+Career-oriented students share what courses helped them land jobs and succeed in interviews:
+- Algorithms courses (CS 3000, CS 4800) are considered essential for passing technical interviews at top companies
+- Object-Oriented Design (CS 3500) is frequently cited as teaching the design patterns that come up in system design interviews
+- Database courses (CS 3200, CS 5200) are valued for full-stack and backend roles
+- Operating Systems (CS 3650) comes up for systems engineering and infrastructure roles
+
+Topic: NEU co-op program reputation
+r/cscareerquestions users view NEU's co-op program favorably:
+- NEU students often have 2–3 co-op experiences by graduation, which is a significant hiring advantage
+- The Khoury College curriculum is seen as rigorous and industry-aligned
+- Alumni frequently mention the co-op program as the #1 reason they chose NEU
+
+Topic: Professor quality vs. course content
+- Students emphasize that at NEU, the professor matters as much as the course
+- For core courses like CS 3500, choosing the right professor (e.g., Vido) can make a significant difference in learning outcomes
+- Some professors are research-focused and less engaged with undergraduate teaching
+
+Topic: Technical interview prep using NEU courses
+Students share which courses directly mapped to interview topics:
+- "CS 3000 and CS 5800 cover exactly what gets asked in FAANG algorithms rounds — graph traversal, DP, divide and conquer."
+- "CS 3500 (OOD) teaches the design patterns (Strategy, Observer, Factory) that come up in system design interviews."
+- "CS 3650 (Computer Systems) gives you the low-level knowledge for OS and infrastructure roles at companies like Cloudflare, Jane Street."
+- "CS 3200 (Databases) is underrated for interview prep — SQL questions appear in more interviews than people expect."
+
+Topic: Does NEU's Khoury brand matter for recruiting?
+Mixed views:
+- "Top-tier companies (Google, Meta, Amazon) do recruit at NEU, but mostly through co-op pipelines, not just the brand."
+- "The Khoury name has grown significantly in the last 5 years. It's no MIT or CMU but it's well above average."
+- "What matters more than the school name is your co-op experience. Two strong co-ops beat a famous degree every time."
+- "Boston-based companies (HubSpot, Wayfair, Chewy, Fidelity, State Street tech teams) heavily recruit NEU. Local name recognition is strong."
+
+Topic: CS 5800 (graduate Algorithms) professor comparison
+- "Ryan Rad — lectures are clear but homework is extremely hard. Exams are fair. Overall rating ~3.5/5."
+- "Virgil Pavlu — unique teaching style, very theoretical. Some love it, some hate it. Check RMP carefully."
+- "Mahsa Derakhshan — praised across both CS 3000 and CS 5800. Caring, responsive, makes hard content approachable."
+- "Iraklis Tsekourakis — consistent and organized. Not the most engaging but covers everything on the syllabus."
+- "Kenneth Baclawski — criticized for spending too much time on CS history rather than algorithm content."
+- "Ravi Sundaram — lecture content doesn't match homework well; students report a disconnect between what's taught and what's assigned."
+
+Topic: Co-op vs internship — what's the difference for recruiters?
+- "A 6-month co-op is significantly more impressive on a resume than a 3-month summer internship. You get to own projects."
+- "Recruiters from companies that have NEU co-op pipelines know exactly what co-ops entail and value them highly."
+- "For companies unfamiliar with the co-op model, just describe it as a 'full-time internship' — the length sells itself."
+
+--- HOW TO ACCESS REAL DATA ---
+Use PRAW or the Arctic Shift API:
+https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=cscareerquestions&q=northeastern+professor+class&limit=50

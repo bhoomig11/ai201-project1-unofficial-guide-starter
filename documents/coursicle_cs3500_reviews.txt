@@ -1,0 +1,42 @@
+Source: Coursicle — CS 3500: Object-Oriented Design
+URL: https://www.coursicle.com/neu/courses/CS/3500/
+
+COURSE: CS 3500 — Object-Oriented Design
+Credits: 4
+Typical Class Size: 10–225 students
+NUpath: Analyzing/Using Data, Natural/Designed World, Computer & Information Science
+Average Professor Rating: 62 / 100
+Total Reviews: 67
+
+Course Description: Comparative object-oriented programming — classes, inheritance, polymorphism, design patterns, UML notation through case studies and hands-on programming. One of the core required courses for CS undergraduates at Northeastern.
+
+Schedule: Offered multiple sections per semester — Tue/Fri at 9:50am–11:30am, 1:35pm–3:15pm, 3:25pm–5:05pm
+
+--- PROFESSORS WHO HAVE TAUGHT CS 3500 ---
+Lucia Nunez, Sarita Singh, Benjamin Lerner, Vidoje Mihajlovikj (Vido), Ferdinand Vesely, Clark Freifeld, Amit Shesh, Leena Razzaq, Michael Weintraub
+
+--- STUDENT REVIEWS ---
+
+Review — Professor: Benjamin Lerner | Student Year: Junior | ~3 years ago
+"Self-evaluations were due the day after each homework submission — if you miss the self-evaluation you receive a zero on that assignment, which really disrupted my schedule. Be aware of the self-eval deadline system."
+
+Review — Professor: Mark Fontenot | Student Year: First-year | ~2 years ago
+"Classes were pretty much useless. The instructor arrived late, read off the slides, and ended early. The material was not adequately covered in lectures or labs. Programming assignments averaged about 15 hours of work each, but they were substantive and you do learn from them. Just don't expect much from the lectures."
+
+Review — Professor: Vidoje Mihajlovikj (Vido)
+Vido is specifically praised by students for giving strong, useful exam reviews. Students recommend taking him for CS 3500 if his section is available. One review cited on RateMyCourses stated: "Take Vido if you can — his exam reviews are the best and really prepare you for the tests."
+
+--- RATE MY COURSES DATA FOR CS 3500 ---
+Overall: 4.3 / 5
+Easiness: 2.6 / 5
+Interest: 4.1 / 5
+Usefulness: 4.9 / 5
+Number of Reviews: 7
+
+Student sentiment: High usefulness (4.9) and interest (4.1) despite being difficult (easiness 2.6). Students acknowledge it is demanding but valuable.
+
+--- GENERAL STUDENT ADVICE ---
+- Start assignments early — projects are long and time-consuming (15+ hours reported).
+- Self-evaluation deadlines are strict — missing them results in a zero for the assignment.
+- The course covers design patterns, inheritance, polymorphism, and UML — essential skills for co-op interviews.
+- Professor choice matters significantly for this course — some professors are much more effective than others.

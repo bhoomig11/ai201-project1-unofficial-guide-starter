@@ -1,0 +1,198 @@
+SOURCE: Coursicle — Northeastern University CS Course Reviews
+URL Base: https://www.coursicle.com/neu/courses/CS/
+Scraped: 2026-06-12
+
+================================================================================
+CS 2500 — Fundamentals of Computer Science 1
+================================================================================
+Credits: 4
+Total Reviews: 190 (384 rating data points)
+Avg. Professor Rating (Coursicle Score, 1–100): 65
+
+Course Description:
+Introduces the fundamental ideas of computing and the principles of programming.
+Discusses a systematic approach to word problems, including analytic reading,
+synthesis, goal setting, planning, plan execution, and testing. Presents several
+models of computing, starting from nothing more than expression evaluation in the
+spirit of high school algebra. Assumes no prior programming experience; therefore,
+suitable for first-year students—majors, and nonmajors alike—who wish to explore
+the intellectual ideas in the discipline.
+
+Recent Professors (most recent first):
+Benjamin Lerner, John Park, Daniel Patterson, Leena Razzaq, Ellen Spertus,
+Rasika Bhalerao, Ferdinand Vesely, Arjun Guha, Nathaniel Derbinsky, Olin Shivers,
+Amal Ahmed, Thomas Wahl, Clark Freifeld, Alan Mislove, Nada Naji, Matthias Felleisen
+
+Sample Student Reviews (2 shown on page; 190 total available):
+
+Professor: Olin Shivers
+Review: "Prof. Shivers is one of the 'legendary' teachers. Has a tremendous
+knowledge of Computer science and the whole field of software along with many
+connections. He has tons of interesting anecdotes that he gets on tangent
+discussing in class but always manages to relate them back to his lesson. These
+make a world of a difference in 90 minute lectures."
+Timestamp: ~3 years ago
+
+Professor: Benjamin Lerner
+Review: "Professor loves to ridicule students for asking questions; does not
+listen to any feedback given by students on exams or homeworks. Would not
+recommend in a heartbeat."
+Timestamp: ~3 years ago
+
+Note: Full list of 190 reviews available at https://www.coursicle.com/neu/?search=CS+2500&type=reviews
+
+================================================================================
+CS 2510 — Fundamentals of Computer Science 2
+================================================================================
+Credits: 4
+Total Reviews: 73 (326 rating data points)
+Avg. Professor Rating (Coursicle Score, 1–100): 63
+
+Course Description:
+Continues CS 2500. Examines object-oriented programming and associated algorithms
+using more complex data structures as the focus. Discusses nested structures and
+nonlinear structures including hash tables, trees, and graphs. Emphasizes
+abstraction, encapsulation, inheritance, polymorphism, recursion, and object-oriented
+design patterns. Applies these ideas to sample applications that illustrate the
+breadth of computer science.
+
+Recent Professors (most recent first):
+Leena Razzaq, John Park, Nathaniel Derbinsky, Benjamin Lerner, Ellen Spertus,
+Rasika Bhalerao, Diogenes Nunez, Vidoje Mihajlovikj, Amit Shesh, Ferdinand Vesely,
+Jason Hemann, Clark Freifeld, Jan Vitek, Nada Naji, Magy El-Nasr
+
+Sample Student Reviews (2 shown on page; 73 total available):
+
+Professor: Benjamin Lerner
+Review: "Do bad on exam do bad in class. Grading isn't very strict, every point
+I got taken off made sense. Very tough."
+
+Professor: Leena Razzaq
+Review: "One of the most unengaging professors I've ever had. Compared to my
+other CS professors, Leena had dull and monotonous lectures. Came to her office
+hours a few times and was usually met with confusing answers to my questions,
+sometimes feeling a little condescending. Would not recommend, especially since
+other CS profs are so much better."
+
+================================================================================
+CS 3000 — Algorithms and Data
+================================================================================
+Credits: 4
+Total Reviews: 26 (168 rating data points)
+Avg. Professor Rating (Coursicle Score, 1–100): 59
+
+Course Description:
+Introduces the basic principles and techniques for the design, analysis, and
+implementation of efficient algorithms and data representations. Discusses
+asymptotic analysis and formal methods for establishing the correctness of
+algorithms. Considers divide-and-conquer algorithms, graph traversal algorithms,
+and optimization techniques. Introduces information theory and covers the
+fundamental structures for representing data. Examines flat and hierarchical
+representations, dynamic data representations, and data compression. Concludes
+with a discussion of the relationship of the topics in this course to complexity
+theory and the notion of the hardness of problems.
+
+Recent Professors (most recent first):
+Akshar Varma, Jonathan Ullman, Rajmohan Rajaraman, Soheil Behnezhad, Akram Bayat,
+Iraklis Tsekourakis, Huy Nguyen, Andrew Poel, Mahsa Derakhshan, Paul Hand,
+Amit Shesh, Walter Schnyder, Ravi Sundaram, Neal Young
+
+Sample Student Reviews (2 shown on page; 26 total available):
+
+Professor: Mahsa Derakhshan
+Review: "The class started out a little rough to be honest (it's her first time
+teaching) but greatly improved throughout the semester. I think she really cares
+about her students a lot and listens to feedback because she's always very willing
+to help and try to make the course run more smoothly for us. Lectures can be a
+drag but I think that's just algo."
+
+Professor: Walter Schnyder
+Review: "I almost feel bad for my rating because he puts so much effort into his
+teaching materials, but unfortunately it just doesn't matter because none of it is
+effective. I don't doubt he's a smart guy, but he can NOT teach. He can also be
+condescending at times. This is my second class with him - trust me, find another
+prof."
+
+================================================================================
+CS 3650 — Computer Systems
+================================================================================
+Credits: 4
+Total Reviews: 13 (125 rating data points)
+Avg. Professor Rating (Coursicle Score, 1–100): 60
+
+Course Description:
+Introduces the basic design of computing systems, computer operating systems, and
+assembly language using a RISC architecture. Describes caches and virtual memory.
+Covers the interface between assembly language and high-level languages, including
+call frames and pointers. Covers the use of system calls and systems programming to
+show the interaction with the operating system. Covers the basic structures of an
+operating system, including application interfaces, processes, threads,
+synchronization, interprocess communication, deadlock, memory management, file
+systems, and input/output control.
+
+Recent Professors (most recent first):
+Alden Jackson, Ferdinand Vesely, Cheng Tan, Peter Desnoyers, Gene Cooperman,
+John Park, Ji Shin, Nathaniel Tuck, Aanjhan Ranganathan, Michael Shah
+
+Sample Student Reviews (2 shown on page; 13 total available):
+
+Professor: Gene Cooperman
+Review: "Very knowledgeable professor. Always happy to help you understand the
+concepts and will basically hand you code if you go to office hours. Highly
+recommend."
+
+Professor: Nathaniel Tuck
+Review: "Gonna be a tough class but he knows what he's talking about and he's
+a good teacher."
+
+================================================================================
+CS 5800 — Algorithms
+================================================================================
+Credits: 4
+Total Reviews: (125+ rating data points)
+Avg. Professor Rating (Coursicle Score, 1–100): 57
+
+Course Description:
+Presents the mathematical techniques used for the design and analysis of computer
+algorithms. Focuses on algorithmic design paradigms and techniques for analyzing
+the correctness, time, and space complexity of algorithms. Topics may include
+asymptotic notation, recurrences, loop invariants, Hoare triples, sorting and
+searching, advanced data structures, lower bounds, hashing, greedy algorithms,
+dynamic programming, graph algorithms, and NP-completeness.
+
+Recent Professors (most recent first):
+Ryan Rad, Iraklis Tsekourakis, Mahsa Derakhshan, Virgil Pavlu, Lindsay Jamieson,
+Akram Bayat, Lama Hamandi, Smruthi Mukund, Katherine Socha, Gregory Aloupis,
+Alan Jamieson, Said Amal, Hyonho Lee, Florin Bidian, Aaron Hunter, Justin Kennedy
+
+Sample Student Reviews (2 shown on page):
+
+Professor: Kenneth Baclawski
+Review: "He is more like a history teacher than CS teacher, always talked about
+inventor of the algorithm but never focus on the algorithm. Homework questions are
+unreasonable, obscure and deduct our marks for unmentioned requirement. He just
+keep the requirements in his head and suppose all of us can guess what is inside
+his mind!"
+
+Professor: Ravi Sundaram
+Review: "The way this course is conducted is absolutely hideous! The professor
+reads off the slides without actually teaching and the homework given is
+next-level compared to the lecture slides. The teaching is worse than entry-level
+but the expectation of students is PhD-level. Do not take with this professor
+because it is really unfair to the students."
+
+================================================================================
+RATING SCALE NOTE
+================================================================================
+The Coursicle Professor Rating is a normalized score (1–100) that combines review
+distribution, number of reviews, and comparisons against other professors within
+the same school and department. It uses a Bayesian statistical method to produce
+a more reliable rating than simple averages — especially for professors with few
+reviews. It reflects how a professor compares to others at the same institution.
+
+Summary of ratings across these 5 courses:
+  CS 2500 (Fundamentals of CS 1):  65/100
+  CS 2510 (Fundamentals of CS 2):  63/100
+  CS 3000 (Algorithms and Data):   59/100
+  CS 3650 (Computer Systems):      60/100
+  CS 5800 (Algorithms, grad):      57/100

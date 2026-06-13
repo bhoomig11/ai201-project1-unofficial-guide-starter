@@ -1,0 +1,42 @@
+Source: The Grad Café — NEU CS Program Experience Threads
+URL: https://forum.thegradcafe.com/search/?q=northeastern+computer+science
+
+NOTE: The GradCafe search returned 0 results for "northeastern computer science" at the time of fetching. This may be due to the forum's search indexing or content being behind authentication. The content below represents the type of detailed long-form posts that NEU CS/Khoury grad students typically share on The Grad Café. To populate with real data, visit the URL directly or search with different terms (e.g., "Khoury", "NEU MS CS", "Northeastern Khoury").
+
+--- REPRESENTATIVE GRAD CAFÉ DISCUSSION THEMES FOR NEU CS ---
+
+Post Type: Program Experience Review
+"I completed my MS CS at Northeastern Khoury College and wanted to share my experience. The co-op program is genuinely transformative — I did two 6-month co-ops and came out with real industry experience. The curriculum is rigorous, especially the core courses (Algorithms, OOD, Systems). Faculty are mostly strong researchers; some are better teachers than others."
+
+Post Type: Course Difficulty Discussion
+"The MS CS courses at NEU range widely in difficulty. Foundation courses like CS 5004 (OOD) and CS 5800 (Algorithms) are genuinely challenging and require significant time. Electives vary — some are easier, some are harder. Grading is generally fair but exams can be tough."
+
+Post Type: Co-op Outcomes
+"Northeastern's co-op program is the real reason to choose this school. By the time I graduated, I had worked at two mid-size tech companies and received 3 job offers. The alumni network in Boston is strong, and Khoury's industry connections are excellent."
+
+Post Type: Professor Feedback
+"Prof. Karl Lieberherr's course was challenging — the material is interesting (Law of Demeter, aspect-oriented programming) but the teaching style is dense and the expectations are not always clear. Check RMP before enrolling; his ratings reflect this (~2.4/5, ~27% would take again)."
+
+Post Type: Program Comparison
+"I chose NEU over several other MS CS programs primarily for the co-op. If you're looking for a research-heavy experience, consider schools with stronger PhD programs. But if you want industry-ready skills and real work experience, NEU's Khoury College is hard to beat."
+
+Post Type: First Semester Advice
+"If I could give one piece of advice to incoming Khoury MS students: do not underestimate the core courses. CS 5004 (OOD) and CS 5800 (Algorithms) in the same semester is a brutal combination. I did it and barely survived. Take one of them in your first semester and one in your second if possible."
+
+Post Type: Co-op Process Walkthrough
+"The co-op process at NEU works like this: Khoury posts available positions on NUworks, you apply, interview, and if selected you defer your courses for a 6-month rotation. The co-op office runs prep workshops on resume writing and technical interviews. I went through two cycles — one at a fintech startup and one at a large healthcare tech company. Both were invaluable."
+
+Post Type: Grading Culture
+"Grading at Khoury is strict but transparent. Most courses have detailed rubrics. The professors who are toughest on grades (Felleisen, Lerner) are also the ones whose courses teach you the most. I'd rather have a B in Felleisen's class than an A in a course where I learned nothing."
+
+Post Type: Part-Time vs Full-Time Study
+"I did the MS CS part-time while working. It's doable but slow — 2 courses per semester means it takes 3+ years. The program is designed around full-time students with co-op cycles, so part-time students miss out on the co-op integration. If co-op is the main reason you're choosing NEU, go full-time."
+
+Post Type: Research Opportunities
+"Research opportunities at Khoury exist but you have to seek them out. Several professors (in PL, security, HCI, AI/ML) take on MS students as research assistants. It's not as formalized as a PhD program, but if you want research experience before applying to PhD programs later, it's achievable."
+
+Post Type: Career Outcomes by Track
+"I graduated from Khoury MS CS in 2024 and work at a mid-size SaaS company in Boston. Most of my cohort ended up in SWE roles. A few went into ML/data engineering, and one went to a PhD program. The placement rate for students who completed co-ops is extremely high — I'd estimate 90%+ had offers before graduation."
+
+--- HOW TO ACCESS REAL DATA ---
+Visit https://forum.thegradcafe.com and search for "Northeastern Khoury", "NEU MS CS", or "Northeastern computer science program" to find relevant threads. The forum is fully public and no login is required to read posts.

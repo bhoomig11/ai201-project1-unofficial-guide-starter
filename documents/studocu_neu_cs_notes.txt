@@ -1,0 +1,40 @@
+Source: Studocu — Northeastern University CS Student Documents
+URL: https://www.studocu.com/en-us/university/northeastern-university/computer-science/1290117
+
+NOTE: The Studocu page for NEU CS did not return extractable course-specific content via automated fetch. Studocu is a document-sharing platform where students upload lecture notes, study guides, and past exams. To populate this file with real content, visit the URL while logged in and download relevant documents for NEU CS courses.
+
+--- COURSES TYPICALLY DOCUMENTED ON STUDOCU FOR NEU CS ---
+
+CS 2500 — Fundamentals of Computer Science 1 (Fundies 1)
+- Student-uploaded lecture notes on Racket, recursion, and the design recipe
+- Study guides for midterms and finals
+- Practice problems with solutions
+
+CS 2510 — Fundamentals of Computer Science 2 (Fundies 2)
+- Notes on abstract classes, interfaces, lists, and Java basics
+- Lab solutions and exam prep materials
+
+CS 3500 — Object-Oriented Design (OOD)
+- Notes on design patterns (Strategy, Observer, Visitor, etc.)
+- UML diagram examples
+- Self-evaluation templates and project walkthroughs
+
+CS 3000 — Algorithms and Data
+- Notes on sorting algorithms, dynamic programming, graph algorithms
+- Exam prep sheets
+- Big-O complexity reference guides
+
+CS 3650 — Computer Systems
+- Notes on C programming, memory management, and systems concepts
+- Assembly language notes
+- Past exam problems
+
+CS 4500 — Software Development
+- Notes on software development lifecycle and team project management
+- Code review guidelines and documentation standards
+
+--- HOW TO ACCESS REAL DATA ---
+1. Visit https://www.studocu.com/en-us/university/northeastern-university/computer-science/1290117
+2. Create a free account or log in
+3. Browse and download notes for specific NEU CS courses
+4. Uploaded documents are student-generated and vary in quality — use multiple sources for verification

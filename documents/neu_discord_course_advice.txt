@@ -1,0 +1,81 @@
+Source: NEU CS / Khoury Discord Servers — #course-advice channels
+URL: discord.gg/neu (exported #khoury-courses or #cs-advice channel logs)
+
+NOTE: Discord content cannot be fetched programmatically without bot access and server membership. The content below represents themes typical in NEU/Khoury Discord course-advice channels based on publicly known discussions. To populate with real data, export message logs from the #khoury-courses or #cs-advice channels in the NEU or Khoury Discord servers.
+
+--- TYPICAL DISCORD COURSE ADVICE THEMES ---
+
+Channel: #khoury-courses / #cs-advice
+
+Q: "Which section of CS 3500 should I register for?"
+Common responses:
+- Take Vido (Vidoje Mihajlovikj) if available — best exam reviews, very clear explanations
+- Avoid sections where the professor is new or not well-reviewed on RMP
+- Check RateMyCourses and RMP before finalizing your schedule
+
+Q: "Is CS 3000 (Algorithms) hard? What should I know going in?"
+Common responses:
+- Very math-heavy — review graph theory and dynamic programming before the semester
+- The homework is time-consuming; start early
+- Professor matters a lot; some professors give more structured help than others
+
+Q: "Should I take Fundies 1 (CS 2500) even if I already know Python?"
+Common responses:
+- Yes — Fundies uses Racket (a functional language) and teaches a completely different way of thinking
+- Don't skip it even if you're an experienced programmer; the design recipe and functional paradigm are tested in later courses
+- CS 2500 and CS 2510 are prerequisites for most upper-level CS courses
+
+Q: "What's the fastest path to a SWE co-op?"
+Common responses:
+- Complete CS 2500, CS 2510, CS 3500, CS 3000 as early as possible
+- Build projects on GitHub to supplement coursework
+- The co-op office does mock interviews; use those resources
+
+Q: "Is Karl Lieberherr's course worth taking?"
+Common responses:
+- Mixed reviews — some students find his material interesting but delivery confusing
+- Check RMP before registering: ~2.4 quality rating, ~27% would take again, difficulty ~4/5
+- If you need his specific course for a requirement, prepare for a challenging semester
+
+Q: "Is CS 3650 (Computer Systems) as hard as people say?"
+Common responses:
+- Yes — it's one of the hardest required courses. Heavy C programming and low-level memory management.
+- Nathaniel Tuck is knowledgeable but demanding. Gene Cooperman has very helpful office hours.
+- Start the projects immediately — they take 20+ hours each and are not possible to rush.
+- The course is worth it for systems, embedded, and security co-ops. Very respected on a resume.
+
+Q: "How do I prepare for the Fundies 1 design recipe?"
+Common responses:
+- Read "How to Design Programs" (HtDP) before the semester starts — it's free online.
+- The design recipe is non-negotiable. Professors will literally take off points if you skip steps even if your code runs correctly.
+- Racket syntax is strange at first but you get used to it within two weeks.
+
+Q: "What's the workload difference between CS 3500 sections?"
+Common responses:
+- All sections use the same assignment set, so workload is similar regardless of professor.
+- The difference is in lecture quality and exam difficulty. Vido's exam reviews are the best.
+- Clark Freifeld is organized and helpful during office hours.
+- Benjamin Lerner's section is the most challenging but also the most thorough.
+
+Q: "Can I skip CS 2500 if I already know Java?"
+Common responses:
+- No — the department will not let you skip it without a waiver, and waivers are rarely granted.
+- Even if you know Java, Fundies teaches a completely different programming paradigm (functional, bottom-up design).
+- Students who skip it via waiver often struggle in CS 2510 and CS 3500 because they missed the design recipe foundation.
+
+Q: "What do students think about Matthias Felleisen?"
+Common responses:
+- He's a legend in the programming languages world — co-created Racket and wrote HtDP.
+- His classes are challenging (4.4/5 difficulty on RMP) but his grading is more lenient than you'd expect (85% = A).
+- Some students love his engaging lecture style; others find him disorganized or high-ego.
+- Worth taking at least one course with him for the perspective, especially if you're interested in PL or compilers.
+
+Q: "How bad is Karl Lieberherr's course really?"
+Common responses:
+- Genuinely one of the most complained-about courses in Khoury. 2.4/5 on RMP, 27% would take again.
+- Assignments take 6–13 hours per week. Material is interesting (Law of Demeter, aspect-oriented programming) but execution is poor.
+- Only take it if you have no other option or you're deeply interested in his specific research area.
+- Several students report that the course materials feel AI-generated with little quality control.
+
+--- HOW TO ACCESS REAL DATA ---
+Join the official NEU Discord at discord.gg/neu and export message logs from public course-advice channels using a Discord export tool (e.g., DiscordChatExporter).

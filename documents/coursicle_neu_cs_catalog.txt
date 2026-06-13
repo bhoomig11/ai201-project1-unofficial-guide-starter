@@ -1,0 +1,102 @@
+Source: Coursicle — NEU CS Course Catalog
+URL: https://www.coursicle.com/neu/courses/CS/
+
+NORTHEASTERN UNIVERSITY — FULL CS COURSE CATALOG (Fall 2026)
+(All courses offered under the CS prefix at Northeastern University)
+
+--- INTRODUCTORY / UNDERGRADUATE COURSES ---
+CS 0130 — Introduction to Computer Science (intro level)
+CS 1200 — Leadership Skill Development
+CS 1210 — Professional Development for Khoury Co-op
+CS 1800 — Discrete Structures
+CS 1802 — Seminar for CS 1800
+CS 2500 — Fundamentals of Computer Science 1 (Fundies 1)
+CS 2501 — Lab for CS 2500
+CS 2510 — Fundamentals of Computer Science 2 (Fundies 2)
+CS 2511 — Lab for CS 2510
+CS 2800 — Logic and Computation
+CS 2801 — Lab for CS 2800
+CS 2810 — Mathematics of Data Models
+CS 3000 — Algorithms and Data
+CS 3001 — Recitation for CS 3000
+CS 3200 — Database Design
+CS 3500 — Object-Oriented Design (OOD)
+CS 3501 — Lab for CS 3500
+CS 3650 — Computer Systems
+CS 3700 — Networks and Distributed Systems
+CS 3800 — Theory of Computation
+CS 4100 — Artificial Intelligence
+CS 4120 — Natural Language Processing
+CS 4200 — Programming Languages
+CS 4300 — Computer Graphics
+CS 4400 — Programming Languages (advanced)
+CS 4410 — Compiler Design
+CS 4500 — Software Development
+CS 4530 — Foundations of Software Engineering
+CS 4550 — Web Development
+CS 4610 — Robotic Science and Systems
+CS 4700 — Network Fundamentals
+CS 4710 — Mobile Application Development
+CS 4730 — Distributed Systems
+CS 4800 — Algorithms (advanced)
+CS 4820 — Randomized Algorithms
+CS 4830 — System Specification, Verification, and Synthesis
+CS 4850 — Building Game Engines
+CS 4860 — Applied Cryptography
+CS 4910 — Special Topics (various)
+CS 4950 — Computer Science Research Capstone
+CS 4991 — Research
+CS 4992 — Directed Study
+
+--- GRADUATE COURSES ---
+CS 5001 — Intensive Foundations of Computer Science
+CS 5002 — Discrete Math Foundations for CS
+CS 5004 — Object-Oriented Design (graduate)
+CS 5006 — Algorithms (graduate)
+CS 5007 — Computer Systems (graduate)
+CS 5008 — Data Structures, Algorithms, Applications in C
+CS 5010 — Program Design Paradigms
+CS 5100 — Foundations of Artificial Intelligence
+CS 5110 — Into to AI and Multi-Agent Systems
+CS 5150 — Machine Learning
+CS 5200 — Database Management Systems
+CS 5310 — Computer Graphics
+CS 5340 — Human-Computer Interaction
+CS 5400 — Principles of Programming Languages
+CS 5500 — Managing Software Development
+CS 5520 — Mobile Application Development
+CS 5600 — Computer Systems
+CS 5610 — Web Development
+CS 5800 — Algorithms
+CS 6120 — Advanced Machine Learning
+CS 6140 — Machine Learning
+CS 6200 — Graduate Introduction to Operating Systems
+CS 6210 — Advanced Topics in Operating Systems
+CS 6220 — Big Data Intelligence
+CS 6240 — Parallel Data Processing in MapReduce
+CS 6300 — Compilers
+CS 6400 — Programming Languages and Logics
+CS 6510 — Advanced Software Development
+CS 6520 — Foundations of Software Engineering (graduate)
+CS 6650 — Building Scalable Distributed Systems
+CS 6700 — Advanced Artificial Intelligence
+CS 6710 — Wireless Networks
+CS 6740 — Network Security
+CS 6750 — Cryptography and Communication Security
+CS 6800 — Advances in Computer Science
+CS 6820 — Analysis of Algorithms
+CS 6910 — Special Topics
+CS 7200 — Graduate Research
+CS 7240 — Perspectives on Software Engineering
+CS 7280 — Network Science
+CS 7340 — Context-Aware Computing
+CS 7374 — Distributed Systems and Concurrent Programming
+CS 7470 — Mobile and Ubiquitous Computing
+CS 7480 — Principles of Programming Languages (doctoral)
+CS 7580 — Special Topics in Software Engineering
+CS 7680 — Special Topics in Computer Systems
+CS 7675 — Research Thesis
+CS 7976 — Full-Time Doctoral Research
+CS 8674 — Part-Time Doctoral Research
+CS 9986 — Research
+CS 9996 — Doctoral Dissertation

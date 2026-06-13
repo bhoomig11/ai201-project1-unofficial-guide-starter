@@ -1,0 +1,176 @@
+Source: Rate My Professors — Northeastern University CS Department
+URL: https://www.ratemyprofessors.com/search/professors/696?q=*&did=11
+
+NORTHEASTERN UNIVERSITY — COMPUTER SCIENCE PROFESSORS
+(Data retrieved from Rate My Professors public listings)
+
+--- CS DEPARTMENT PROFESSORS ---
+
+Professor: Kaan Onarlioglu
+Department: Computer Science
+Quality Rating: 4.9 / 5
+Number of Ratings: 107
+Would Take Again: 93%
+Difficulty: 3.7 / 5
+
+Professor: Zhengzhong Jin
+Department: Computer Science
+Quality Rating: 4.9 / 5
+Number of Ratings: 8
+Would Take Again: 100%
+Difficulty: 3.9 / 5
+
+Professor: Hongyang Zhang
+Department: Computer Science
+Quality Rating: 3.6 / 5
+Number of Ratings: 29
+Would Take Again: 60%
+Difficulty: 3.2 / 5
+
+Professor: Lucia Nunez
+Department: Computer Science
+Quality Rating: 3.6 / 5
+Number of Ratings: 61
+Would Take Again: 67%
+Difficulty: 3.9 / 5
+
+Professor: Jonathan Bell
+Department: Computer Science
+Quality Rating: 3.7 / 5
+Number of Ratings: 3
+Would Take Again: 50%
+Difficulty: 3.7 / 5
+
+--- ADDITIONAL NEU PROFESSORS (CROSS-DEPARTMENT SAMPLE) ---
+
+Professor: Jude Mathews
+Department: Chemistry
+Quality Rating: 4.2 / 5
+Number of Ratings: 143
+Would Take Again: 85.9%
+Difficulty: 3.4 / 5
+
+Professor: Sadie Piatt
+Department: Chemistry
+Quality Rating: 1.5 / 5
+Number of Ratings: 218
+Would Take Again: 11.4%
+Difficulty: 4.8 / 5
+
+Professor: Assad Fotovatian
+Department: Physics
+Quality Rating: 3.0 / 5
+Number of Ratings: 133
+Would Take Again: 49.3%
+Difficulty: 3.4 / 5
+
+Professor: Dimitre Tzigantchev
+Department: Mathematics
+Quality Rating: 2.7 / 5
+Number of Ratings: 70
+Would Take Again: 40.8%
+Difficulty: 3.3 / 5
+
+Professor: Natalia Ptitsyna
+Department: Mathematics
+Quality Rating: 2.2 / 5
+Number of Ratings: 42
+Would Take Again: 27.9%
+Difficulty: 3.8 / 5
+
+Professor: Richeng Piao
+Department: Economics
+Quality Rating: 4.8 / 5
+Number of Ratings: 34
+Would Take Again: 97.0%
+Difficulty: 2.3 / 5
+
+Professor: Emad Aboelela
+Department: Electrical Engineering
+Quality Rating: 3.4 / 5
+Number of Ratings: 18
+Would Take Again: 57.9%
+Difficulty: 3.1 / 5
+
+Professor: Venkat Kuppuswamy
+Department: Entrepreneurship
+Quality Rating: 4.9 / 5
+Number of Ratings: 13
+Would Take Again: 92.9%
+Difficulty: 2.2 / 5
+
+--- DETAILED CS PROFESSOR PROFILES (from individual RMP pages) ---
+
+Professor: Matthias Felleisen
+Department: Computer Science
+Quality Rating: 3.6 / 5
+Number of Ratings: 56
+Would Take Again: 50%
+Difficulty: 4.4 / 5
+Courses Taught: CS 4400, CS 4500
+Student Reviews:
+- "He's lectures are very engaging and grading is lenient — 85% is an A." (CS 4400, Dec 2025)
+- "Very disorganized and high ego. Lots of homework." (CS 4400, Nov 2025)
+- "Best prof ever! It's a shame so little students understand the value from his class." (CS 4500, Feb 2025)
+- "One of the best professors at Northeastern. Great lecturer and extremely knowledgeable." (CS 4500, Dec 2023)
+- "The workload and stress created by this class are unnecessary — about 15 hours a week on projects." (CS 4500, Oct 2023)
+- "He does not hesitate to give 0s for mistakes." (CS 4500, Oct 2023)
+
+Professor: Benjamin Lerner
+Department: Computer Science
+Quality Rating: 3.6 / 5
+Number of Ratings: 90
+Would Take Again: 61%
+Difficulty: 4.3 / 5
+Courses Taught: CS 2500, CS 2510, CS 3500, CS 4500
+Student Reviews:
+- "Hardest class I've ever taken. But best prof ever."
+- "He is very knowledgeable and excellent at communicating the intuition and basis for difficult concepts."
+- "Tough grader, but really pushes his students to become better programmers. His lectures and materials really show that he cares about what he's teaching."
+- "I took the accelerated section and learned a lot. If you have programming experience or the desire to be challenged, I really recommend taking his course."
+- "Professor loves to ridicule students for asking questions; does not listen to any feedback given by students on exams or homeworks. Would not recommend."
+
+Professor: Leena Razzaq
+Department: Computer Science
+Quality Rating: 2.7 / 5
+Number of Ratings: 127
+Would Take Again: 30%
+Difficulty: 3.7 / 5
+Courses Taught: CS 2500, CS 2510, CS 3500
+Student Reviews:
+- "The worst professor possible, she doesn't know what the course is. She asks you to do geography things in a coding class."
+- "Prof was clearly not very knowledgeable, just read off slides and had difficulty answering questions."
+- "I feel like I learned a lot in this course. The assignments were interesting and there was even one about bias in RMP."
+- "Leena is definitely an over-hated professor. Her lectures are typically reasonable and understandable."
+- "She is not the greatest professor, but she does care and can answer questions about the material."
+
+Professor: Ferdinand Vesely
+Department: Computer Science
+Quality Rating: 3.0 / 5
+Number of Ratings: 48
+Would Take Again: 60%
+Difficulty: 3.2 / 5
+Courses Taught: CS 3100, CS 3500, CS 2500
+Student Reviews:
+- "Lecture notes, homework, labs, and tests all AI generated. Assignments felt very disconnected from lectures and often contained mistakes."
+- "3100 is a miserable experience and should be avoided but Ferd himself is a great professor. He is clearly very knowledgeable and passionate about CS."
+- "Great lectures and you can tell he loves CS. His lectures are very clear."
+- "The class is designed by AI and not made by him, and he made it clear that he doesn't appreciate how the curriculum is designed either."
+- "Ferd is a great guy and very knowledgeable. Unfortunately the new CS3100 curriculum is fully AI slop."
+
+Professor: Karl Lieberherr
+Department: Computer Science
+Quality Rating: 2.4 / 5
+Number of Ratings: 41
+Would Take Again: 27%
+Difficulty: 4.0 / 5
+Courses Taught: CS 4910 (Special Topics), graduate seminars
+Student Reviews:
+- "RUN. Taught by Claude AI, assignments and tests written by Claude AI, probably graded by Claude AI."
+- "Have to learn all material outside of class on your own time. Assignments take 7+ hours."
+- "This man made me consider lying on the green line tracks. 13+ hours on weekly homework assignments."
+- "Probably the worst professor at Northeastern. You cannot understand what he is saying most of the time."
+- "Weekly assignments always a number one priority — the shortest one took me 6 hours."
+- "His research on the Law of Demeter is interesting but translating that into coursework is a disaster."
+
+Note: The full RMP listing for Northeastern has 267+ professors. The CS department is heavily represented. This is a partial snapshot; individual professor pages contain full review histories.

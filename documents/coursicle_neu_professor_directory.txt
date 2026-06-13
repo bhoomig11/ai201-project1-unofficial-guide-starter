@@ -1,0 +1,13 @@
+Source: Coursicle — NEU Professor Directory
+URL: https://www.coursicle.com/neu/professors/
+
+NORTHEASTERN UNIVERSITY — PROFESSOR DIRECTORY (PARTIAL ALPHABETICAL LISTING)
+(Lists professors across all departments at Northeastern University)
+
+--- PARTIAL PROFESSOR LIST (A) ---
+Aanchal Malhotra, Aanchan Mohan, Aanjhan Ranganathan, Aaron Block, Aaron Daniels, Aaron Dell, Aaron Farber, Aaron Farber-Chen, Aaron Hoffman, Aaron Hunter, Aaron Mutchler, Aaron Roth, Aaron Seitz, Aaron Tenbuuren, Aarti Sathyanarayana, Aashima Gogia, Aatmesh Shrivastava, Aayush Bafana, Ab Mosca, Abbie DeCamp, Abbie Levesque, Abby Folger, Abdolreza Mosaddegh, Abdul Mohammed, Abdul Mughal, Abdullah Tirgil, Abdulrahim Hammour, Abhi Shelat, Abhishek Kumar, Abhishek Murthy, Abhishek Thakuria, Abigael Peckham, Abigail Ballou, Abigail Coons, Abigail Crain, Abigail Evans, Abigail Foster-Howard, Abigail Goodridge, Abigail Koppes, Abigail Moulton, Abigail Ochengco, Abigail Postlewaite, Abigail Ransmeier, Abigail Williams, Abir Saha, Abraham Bagherjeiran, Abraham Tishelman-Charny, Ada Lerner, Adam Agostinelli, Adam Anthony, Adam Broughton, Adam Cooper, Adam Ekenseair, Adam Feinberg, Adam Hall, Adam Hosein, Adam Murfield, Adam Parker, Adam Payne, Adam Pelloso, Adam Powell, Adam Thomas, Adam Tomasi, Adam Wood, Adam Woolley
+
+--- NOTABLE CS / KHOURY COLLEGE PROFESSORS LISTED ---
+Christopher Amato, David Kaeli, Alexander Gates, Benjamin Akers, Abhi Shelat, Ada Lerner, Aanjhan Ranganathan
+
+Note: The full directory contains 3,000+ professors across all Northeastern departments. The CS/Khoury College professors are spread throughout the alphabetical listing. Individual professor profile pages contain course history and student-submitted notes.

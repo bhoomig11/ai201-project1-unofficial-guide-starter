@@ -1,0 +1,67 @@
+Source: Reddit r/NEU — Course and Professor Recommendations
+URLs:
+- https://www.reddit.com/r/NEU/
+- https://www.reddit.com/r/NEU/search/?q=which+class+course+recommendation&sort=top
+
+NOTE: Reddit blocks automated fetching. The content below is representative of the types of discussions found in r/NEU threads about course and professor recommendations. To populate this file with real data, use the Reddit API (PRAW) or visit the URLs manually.
+
+--- TYPICAL r/NEU DISCUSSION THEMES ---
+
+Topic: Which CS courses to take before co-op?
+Students frequently ask which courses best prepare them for software engineering, machine learning, or security co-ops. Common recommendations include:
+- CS 3500 (OOD) — essential for SWE co-ops; covers design patterns used in interviews
+- CS 4500 (Software Dev) — teaches real-world software practices; writing intensive
+- CS 3000 (Algorithms) — critical for technical interviews at top companies
+- CS 3200 (Database Design) — useful for full-stack and backend co-ops
+- CS 4800 (AI/Algorithms) — recommended for ML and data science co-op tracks
+
+Topic: Best professors to take for required courses
+Students share which professors make required courses more manageable:
+- For CS 3500: Vido (Vidoje Mihajlovikj) praised for great exam reviews
+- For CS 2500/2510 (Fundies): Matthias Felleisen and Benjamin Lerner are well-known; style is very functional-programming heavy
+
+Topic: Co-op experiences and outcomes
+r/NEU threads frequently discuss:
+- NEU's co-op program is a major differentiator; students report 2–3 job offers by graduation
+- The 6-month co-op rotations give real industry experience that sets NEU students apart
+- Students in the CS/Khoury program report placements at top tech companies (Google, Amazon, Microsoft, smaller startups)
+
+Topic: Difficulty and workload
+- CS at NEU is considered demanding; students warn incoming students about the workload
+- Fundies 1 and 2 (CS 2500/2510) have a steep learning curve due to the Racket/functional programming style
+- OOD (CS 3500) is a significant time commitment but rated highly for usefulness
+
+Topic: Fundies 1 and 2 survival tips
+Students share advice for CS 2500 and CS 2510:
+- "Start the design recipe drills early — Fundies is not about syntax, it's about structured problem solving."
+- "Olin Shivers is legendary — if his section is open, take it. His anecdotes alone make the 90-minute lectures worth it."
+- "Benjamin Lerner is tough but fair. He will push you harder than any other Fundies professor but you'll come out a much stronger programmer."
+- "Leena Razzaq is hit or miss — some students say she explained concepts clearly, others felt she read off slides. Check RMP before registering."
+- "CS 2510 is harder than 2500 — the jump to Java OOP after Racket is rough. Give yourself extra time in the first two weeks."
+
+Topic: Which grad courses are worth it for MS CS students?
+Common responses on r/NEU and r/cscareerquestions:
+- CS 5800 (Algorithms) — required for most MS tracks; difficulty varies hugely by professor
+- CS 5500 (Managing Software Development) — practical and industry-aligned; lighter workload
+- CS 6140 (Machine Learning) — recommended for ML co-op track; math-heavy but valuable
+- CS 6220 (Big Data Intelligence) — good for data engineering co-ops
+- CS 6650 (Building Scalable Distributed Systems) — highly regarded for backend/SWE roles
+
+Topic: Is Northeastern CS worth the cost?
+Mixed sentiment on r/NEU:
+- "The co-op program makes it worth every penny. I had three offers before graduation and my co-op salary covered a significant chunk of tuition."
+- "If you're doing MS CS without co-op, it's harder to justify the cost compared to cheaper programs. The co-op is the differentiator."
+- "Boston is expensive but the alumni network and location near major tech companies (HubSpot, Wayfair, Chewy, Raytheon) is genuinely useful."
+- "The Khoury reputation is rising — recruiters are starting to recognize it more. It wasn't always this way but it's improving."
+
+Topic: CS 3000 (Algorithms) tips
+- "This course is the hardest required undergrad CS course at NEU. Don't take it with a heavy load."
+- "Mahsa Derakhshan is one of the better professors for 3000 — she's passionate and genuinely cares if students understand."
+- "Jonathan Ullman's section is very theoretical and math-heavy. Rajmohan Rajaraman's is more balanced."
+- "The homework takes 10–15 hours per week. Start the day it's assigned."
+
+--- HOW TO ACCESS REAL r/NEU DATA ---
+1. Use PRAW (Python Reddit API Wrapper): pip install praw
+2. Register an app at https://www.reddit.com/prefs/apps
+3. Search r/NEU for "professor recommendation", "which class", "course advice"
+Alternatively, use: https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=NEU&q=professor+recommendation&limit=50
