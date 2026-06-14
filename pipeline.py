@@ -34,6 +34,10 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 import tiktoken
 from sentence_transformers import SentenceTransformer
 import chromadb
+from dotenv import load_dotenv
+from groq import Groq
+
+load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -48,6 +52,9 @@ ENCODING      = "cl100k_base"  # same tokenizer used by most modern LLMs
 
 EMBED_MODEL   = "all-MiniLM-L6-v2"   # sentence-transformers model
 TOP_K         = 5                     # chunks returned per query
+
+LLM_MODEL     = "llama-3.3-70b-versatile"   # Groq free-tier model
+RELEVANCE_FLOOR = 0.55                # below this, treat retrieval as "no good match"
 
 
 # ---------------------------------------------------------------------------
@@ -253,6 +260,84 @@ def retrieve(query: str, collection: chromadb.Collection, top_k: int = TOP_K) ->
         })
 
     return retrieved
+
+
+# ---------------------------------------------------------------------------
+# Stage 5 — Generation (grounded, cited answer via Groq)
+# ---------------------------------------------------------------------------
+SYSTEM_PROMPT = """You are the NEU Unofficial Guide — a question-answering assistant for prospective and current Northeastern University CS students.
+
+STRICT RULES (you MUST follow these):
+1. Answer ONLY using the information in the CONTEXT passages provided below. Do NOT use your general training knowledge.
+2. If the context does not contain enough information to answer the question, reply exactly:
+   "I don't have enough information in my sources to answer that."
+   Do not guess, speculate, or fall back on outside knowledge.
+3. Cite the source filename(s) you used in square brackets at the end of each claim, e.g. [ratemyprofessors_neu_cs.txt].
+4. When sources disagree (e.g. one student says a course is easy, another says it's brutal), surface the disagreement — don't average it into a vague answer.
+5. Keep the answer concise (2–6 sentences) unless the question explicitly asks for detail.
+"""
+
+USER_TEMPLATE = """CONTEXT:
+{context}
+
+QUESTION: {question}
+
+Answer the question using ONLY the context above. Cite source filenames in [brackets]. If the context is insufficient, say so."""
+
+
+def generate_answer(
+    query: str,
+    collection: chromadb.Collection,
+    top_k: int = TOP_K,
+) -> Dict:
+    """
+    End-to-end RAG: retrieve top-k chunks, ground an LLM on them, return a cited answer.
+
+    Returns a dict:
+        "answer"   : the LLM's grounded response (string)
+        "sources"  : deduplicated list of source filenames actually retrieved
+        "chunks"   : the retrieved chunks (for display / debugging)
+        "grounded" : False if retrieval found nothing above the relevance floor
+    """
+    chunks = retrieve(query, collection, top_k=top_k)
+
+    # Refusal gate: if the best chunk is below the relevance floor, decline.
+    # Prevents the LLM from hallucinating when the corpus doesn't cover the topic.
+    if not chunks or chunks[0]["score"] < RELEVANCE_FLOOR:
+        return {
+            "answer":   "I don't have enough information in my sources to answer that.",
+            "sources":  [],
+            "chunks":   chunks,
+            "grounded": False,
+        }
+
+    context = "\n\n".join(f"[{c['source']}]\n{c['text']}" for c in chunks)
+
+    client = Groq(api_key=os.environ["GROQ_API_KEY"])
+    response = client.chat.completions.create(
+        model=LLM_MODEL,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user",   "content": USER_TEMPLATE.format(context=context, question=query)},
+        ],
+        temperature=0.2,   # low — we want grounded, not creative
+        max_tokens=500,
+    )
+    answer = response.choices[0].message.content.strip()
+
+    # Dedup source list, preserving retrieval order
+    seen, sources = set(), []
+    for c in chunks:
+        if c["source"] not in seen:
+            seen.add(c["source"])
+            sources.append(c["source"])
+
+    return {
+        "answer":   answer,
+        "sources":  sources,
+        "chunks":   chunks,
+        "grounded": True,
+    }
 
 
 # testing - 5 eval queries and prints the top-5 chunks with similarity scores
